@@ -15,16 +15,6 @@
             android:contentDescription = "지역 선택 여행하고자 하는 지역을 선택해 주세요"/>
 
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop=""
-            android:gravity="center"
-            android:text="지역 선택"
-            android:contentDescription = "지역 선택 여행하고자 하는 지역을 선택해 주세요"/>
-
-
     </FrameLayout>
 
     <ScrollView
@@ -49,7 +39,9 @@
 
                 android:layout_marginBottom="30dp"
                 android:layout_weight="1"
-                android:text="애월" />
+                android:text="애월"
+                android:contentDescription = "@string/ewol_loc"
+                />
 
             <Button
                 android:id="@+id/btnLoc2"
@@ -59,7 +51,9 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="30dp"
                 android:layout_weight="1"
-                android:text="신제주" />
+                android:text="신제주"
+                android:contentDescription = "@string/njeju_loc"
+                />
 
             <Button
                 android:id="@+id/btnLoc3"
@@ -69,7 +63,9 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="30dp"
                 android:layout_weight="1"
-                android:text="한림" />
+                android:text="한림"
+                android:contentDescription = "@string/hanlim_loc"
+                />
 
             <Button
                 android:id="@+id/btnLoc4"
@@ -79,7 +75,9 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="30dp"
                 android:layout_weight="1"
-                android:text="구제주" />
+                android:text="구제주"
+                android:contentDescription = "@string/ojeju_loc"
+                />
 
             <Button
                 android:id="@+id/btnLoc5"
@@ -89,7 +87,9 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="30dp"
                 android:layout_weight="1"
-                android:text="중문" />
+                android:text="중문"
+                android:contentDescription = "@string/joongmun_loc"
+                />
 
         </LinearLayout>
     </ScrollView>

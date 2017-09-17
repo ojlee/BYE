@@ -37,7 +37,8 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="30dp"
                 android:layout_weight="1"
-                android:src="@drawable/course1"
+                android:src="@drawable/course4_1"
+                android:contentDescription ="@string/hanlim_sim"
 
                 />
             <!--android:contentDescription="@string/des_course1"-->
@@ -49,7 +50,9 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="30dp"
                 android:layout_weight="1"
-                android:src="@drawable/course2"
+                android:src="@drawable/course4_2"
+                android:contentDescription ="@string/museum_sim"
+
 
                 />
             <!--android:contentDescription="@string/des_course1"-->
@@ -61,7 +64,8 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="30dp"
                 android:layout_weight="1"
-                android:src="@drawable/course3"
+                android:src="@drawable/course4_3"
+                android:contentDescription = "@string/saruyni_sim"
 
                 />
             <!--android:contentDescription="@string/des_course1"-->
@@ -73,7 +77,8 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="30dp"
                 android:layout_weight="1"
-                android:src="@drawable/course4"
+                android:src="@drawable/course4_4"
+                android:contentDescription = "@string/sungsanilchul_sim"
 
                 />
             <!--android:contentDescription="@string/des_course1"-->
@@ -85,7 +90,8 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="30dp"
                 android:layout_weight="1"
-                android:src="@drawable/course5"
+                android:src="@drawable/course4_5"
+                android:contentDescription = "@string/ewol_sim"
 
                 />
             <!--android:contentDescription="@string/des_course1"-->

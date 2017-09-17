@@ -19,29 +19,23 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:label="@string/main_name"
-            />
+            android:label="@string/main_name" />
         <activity
             android:name=".GuideActivity"
-            android:label="@string/guide_name"
-            />
+            android:label="@string/guide_name" />
         <activity
             android:name=".CosActivity"
-            android:label="@string/cos_name"
-            />
+            android:label="@string/cos_name" />
         <activity
             android:name=".EmeActivity"
-            android:label="@string/eme_name"
-            />
+            android:label="@string/eme_name" />
         <activity
             android:name=".SetActivity"
-            android:label="@string/set_name"
-            />
+            android:label="@string/set_name" />
         <activity
             android:name=".LocActivity"
-            android:label="@string/reg_name">
-
-        </activity>
+            android:label="@string/reg_name"></activity>
+        <activity android:name=".SetSizeActivity"></activity>
     </application>
 
 </manifest>
