@@ -1,0 +1,15 @@
+<resources>
+    // 각 페이지가 실행 될 때 가장 먼저 나오는 소리
+    <string name="app_name">Become Your Eyes</string> // Splash 화면
+    <string name="main_name">메인 화면</string>
+    <string name="reg_name">지역 선택</string>
+    <string name="cos_name">코스 선택화면</string>
+    <string name="eme_name">긴급 전화</string>
+    <string name="guide_name">코스 안내</string>
+    <string name="set_name">설정 화면</string>
+
+    //description 버튼 이름 대신에 부여하는 설명
+
+
+
+</resources>

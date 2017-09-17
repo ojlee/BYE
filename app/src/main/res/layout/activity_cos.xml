@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="지역 선택"
+            android:contentDescription = "코스 선택 코스버튼을 눌러 대략적인 설명을 들으세요"/>
+
+    </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="90dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btncos1"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/course1"
+
+                />
+            <!--android:contentDescription="@string/des_course1"-->
+            <ImageButton
+                android:id="@+id/btncos2"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/course2"
+
+                />
+            <!--android:contentDescription="@string/des_course1"-->
+            <ImageButton
+                android:id="@+id/btncos3"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/course3"
+
+                />
+            <!--android:contentDescription="@string/des_course1"-->
+            <ImageButton
+                android:id="@+id/btncos4"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/course4"
+
+                />
+            <!--android:contentDescription="@string/des_course1"-->
+            <ImageButton
+                android:id="@+id/btncos5"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/course5"
+
+                />
+            <!--android:contentDescription="@string/des_course1"-->
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
