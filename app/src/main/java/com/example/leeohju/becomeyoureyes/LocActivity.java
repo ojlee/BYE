@@ -17,7 +17,7 @@ public class LocActivity extends AppCompatActivity {
         btnLoc1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LocActivity.this,CosActivity.class);
+                Intent intent = new Intent(LocActivity.this,CourseActivity.class);
                 startActivity(intent);
             }
         });
@@ -25,7 +25,7 @@ public class LocActivity extends AppCompatActivity {
         btnLoc2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LocActivity.this,CosActivity.class);
+                Intent intent = new Intent(LocActivity.this,CourseActivity.class);
                 startActivity(intent);
             }
         });
@@ -33,7 +33,7 @@ public class LocActivity extends AppCompatActivity {
         btnLoc3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LocActivity.this,CosActivity.class);
+                Intent intent = new Intent(LocActivity.this,CourseActivity.class);
                 startActivity(intent);
             }
         });
@@ -41,7 +41,7 @@ public class LocActivity extends AppCompatActivity {
         btnLoc4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LocActivity.this,CosActivity.class);
+                Intent intent = new Intent(LocActivity.this,CourseActivity.class);
                 startActivity(intent);
             }
         });
@@ -49,7 +49,7 @@ public class LocActivity extends AppCompatActivity {
         btnLoc5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LocActivity.this,CosActivity.class);
+                Intent intent = new Intent(LocActivity.this,CourseActivity.class);
                 startActivity(intent);
             }
         });

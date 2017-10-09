@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:windowBackground="@color/colorBackground">
+        android:windowBackground="@color/colorBackground"
+        >
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,13 +25,13 @@
             android:name=".GuideActivity"
             android:label="@string/guide_name" />
         <activity
-            android:name=".CosActivity"
+            android:name=".CourseActivity"
             android:label="@string/cos_name" />
         <activity
             android:name=".EmeActivity"
             android:label="@string/eme_name" />
         <activity
-            android:name=".SetActivity"
+            android:name=".SetMainActivity"
             android:label="@string/set_name" />
         <activity
             android:name=".LocActivity"

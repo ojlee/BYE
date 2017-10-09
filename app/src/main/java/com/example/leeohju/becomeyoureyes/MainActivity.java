@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,LocActivity.class);
                 startActivity(intent);
+
             }
         });
 
@@ -27,8 +28,9 @@ public class MainActivity extends AppCompatActivity {
         btnSet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,SetActivity.class);
+                Intent intent = new Intent(MainActivity.this,SetMainActivity.class);
                 startActivity(intent);
+
             }
         });
 

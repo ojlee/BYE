@@ -36,10 +36,11 @@
                 android:layout_height="100dp"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-
                 android:layout_marginBottom="30dp"
                 android:layout_weight="1"
                 android:text="애월"
+                android:background="@color/colorTheme1"
+                android:textColor="@color/colorBackground"
                 android:contentDescription = "@string/ewol_loc"
                 />
 
@@ -52,6 +53,8 @@
                 android:layout_marginBottom="30dp"
                 android:layout_weight="1"
                 android:text="신제주"
+                android:background="@color/colorTheme1"
+                android:textColor="@color/colorBackground"
                 android:contentDescription = "@string/njeju_loc"
                 />
 
@@ -64,6 +67,8 @@
                 android:layout_marginBottom="30dp"
                 android:layout_weight="1"
                 android:text="한림"
+                android:background="@color/colorTheme1"
+                android:textColor="@color/colorBackground"
                 android:contentDescription = "@string/hanlim_loc"
                 />
 
@@ -76,6 +81,8 @@
                 android:layout_marginBottom="30dp"
                 android:layout_weight="1"
                 android:text="구제주"
+                android:background="@color/colorTheme1"
+                android:textColor="@color/colorBackground"
                 android:contentDescription = "@string/ojeju_loc"
                 />
 
@@ -88,6 +95,8 @@
                 android:layout_marginBottom="30dp"
                 android:layout_weight="1"
                 android:text="중문"
+                android:background="@color/colorTheme1"
+                android:textColor="@color/colorBackground"
                 android:contentDescription = "@string/joongmun_loc"
                 />
 

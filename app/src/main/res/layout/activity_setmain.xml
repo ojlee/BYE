@@ -11,7 +11,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="메인 화면" />
+            android:text="설정" />
     </FrameLayout>
 
     <ScrollView
@@ -26,41 +26,30 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/btnLoc"
+                android:id="@+id/btnSetSize"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="30dp"
                 android:layout_weight="1"
-                android:text="지역별 코스"
+                android:text="글자 크기 설정"
                 android:background="@color/colorTheme1"
                 android:textColor="@color/colorBackground"
 
                 />
 
             <Button
-                android:id="@+id/btnSet"
+                android:id="@+id/btnSetTheme"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:layout_alignStart="@+id/btnCos"
                 android:layout_centerVertical="true"
                 android:layout_marginBottom="30dp"
                 android:layout_weight="1"
-                android:text="설정"
+                android:text="버튼 테마 색 설정"
                 android:background="@color/colorTheme1"
                 android:textColor="@color/colorBackground"/>
 
-            <Button
-                android:id="@+id/btnEme"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_alignParentBottom="true"
-                android:layout_marginBottom="30dp"
-                android:layout_weight="1"
-                android:text="긴급통화"
-                android:background="@color/colorTheme1"
-                android:textColor="@color/colorBackground"/>
         </LinearLayout>
     </ScrollView>
 

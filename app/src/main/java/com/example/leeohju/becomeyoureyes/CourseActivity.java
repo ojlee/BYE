@@ -6,19 +6,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class CosActivity extends AppCompatActivity {
+public class CourseActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cos);
+        setContentView(R.layout.activity_course);
 
         ImageButton btnCos1 = (ImageButton) findViewById(R.id.btncos1);
         btnCos1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CosActivity.this,GuideActivity.class);
+                Intent intent = new Intent(CourseActivity.this,GuideActivity.class);
                 startActivity(intent);
             }
         });
@@ -27,7 +27,7 @@ public class CosActivity extends AppCompatActivity {
         btnCos2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CosActivity.this,GuideActivity.class);
+                Intent intent = new Intent(CourseActivity.this,GuideActivity.class);
                 startActivity(intent);
             }
         });
@@ -36,7 +36,7 @@ public class CosActivity extends AppCompatActivity {
         btnCos3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CosActivity.this,GuideActivity.class);
+                Intent intent = new Intent(CourseActivity.this,GuideActivity.class);
                 startActivity(intent);
             }
         });
@@ -45,7 +45,7 @@ public class CosActivity extends AppCompatActivity {
         btnCos4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CosActivity.this,GuideActivity.class);
+                Intent intent = new Intent(CourseActivity.this,GuideActivity.class);
                 startActivity(intent);
             }
         });
@@ -54,7 +54,7 @@ public class CosActivity extends AppCompatActivity {
         btnCos5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CosActivity.this,GuideActivity.class);
+                Intent intent = new Intent(CourseActivity.this,GuideActivity.class);
                 startActivity(intent);
             }
         });
