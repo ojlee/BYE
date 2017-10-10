@@ -11,7 +11,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="메인 화면" />
+            android:text="메인 화면"
+            style="@style/CustomTextView"/>
     </FrameLayout>
 
     <ScrollView
@@ -36,6 +37,7 @@
                 android:text="지역별 코스"
                 android:background="@color/colorTheme1"
                 android:textColor="@color/colorBackground"
+                style="@style/BtnTheme"
 
                 />
 
@@ -49,7 +51,8 @@
                 android:layout_weight="1"
                 android:text="설정"
                 android:background="@color/colorTheme1"
-                android:textColor="@color/colorBackground"/>
+                android:textColor="@color/colorBackground"
+                style="@style/BtnTheme"/>
 
             <Button
                 android:id="@+id/btnEme"
@@ -60,7 +63,8 @@
                 android:layout_weight="1"
                 android:text="긴급통화"
                 android:background="@color/colorTheme1"
-                android:textColor="@color/colorBackground"/>
+                android:textColor="@color/colorBackground"
+                style="@style/BtnTheme"/>
         </LinearLayout>
     </ScrollView>
 

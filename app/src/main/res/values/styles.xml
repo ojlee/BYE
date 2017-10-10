@@ -13,6 +13,18 @@
         <!--<item name="android:windowBackground">@color/colorBackground</item>-->
         <!--<item name="android:button"></item>-->
     </style>
-    <style name="BtnTheme" ></style>
+    <style name="CustomTextView"  parent="@android:style/Widget.TextView">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">@color/colorTheme1</item>
+
+
+    </style>
+
+
+    <style name="BtnTheme" >
+        <item name="android:textSize">30dp</item>
+
+
+    </style>
 
 </resources>

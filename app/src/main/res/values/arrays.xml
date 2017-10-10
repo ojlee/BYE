@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hanlimTs">
+        <item>@string/hanlim_guiH</item>
+        <item>@string/hanlim_gui1T</item>
+        <item>@string/hanlim_gui2T</item>
+        <item>@string/hanlim_gui3T</item>
+        <item>@string/hanlim_gui4T</item>
+    </string-array>
+    <string-array name="hanlimDs">
+        <item>@string/hanlim_guiP</item>
+        <item>@string/hanlim_gui1</item>
+        <item>@string/hanlim_gui2</item>
+        <item>@string/hanlim_gui3</item>
+        <item>@string/hanlim_gui4</item>
+    </string-array>
+
+    <string-array name="museumTs">
+        <item>@string/museum_guiH</item>
+        <item>@string/museum_gui1T</item>
+        <item>@string/museum_gui2T</item>
+        <item>@string/museum_gui3T</item>
+        <item>@string/museum_gui4T</item>
+    </string-array>
+    <string-array name="museumDs">
+        <item>@string/museum_guiP</item>
+        <item>@string/museum_gui1</item>
+        <item>@string/museum_gui2</item>
+        <item>@string/museum_gui3</item>
+        <item>@string/museum_gui4</item>
+    </string-array>
+
+    <string-array name="saruyniTs">
+        <item>@string/saruyni_guiH</item>
+        <item>@string/saruyni_gui1T</item>
+        <item>@string/saruyni_gui2T</item>
+        <item>@string/saruyni_gui3T</item>
+        <item>@string/saruyni_gui4T</item>
+    </string-array>
+    <string-array name="saruyniDs">
+        <item>@string/saruyni_guiP</item>
+        <item>@string/saruyni_gui1</item>
+        <item>@string/saruyni_gui2</item>
+        <item>@string/saruyni_gui3</item>
+        <item>@string/saruyni_gui4</item>
+    </string-array>
+
+    <string-array name="sungsanilchulTs">
+        <item>@string/sungsanilchul_guiH</item>
+        <item>@string/sungsanilchul_gui1T</item>
+        <item>@string/sungsanilchul_gui2T</item>
+        <item>@string/sungsanilchul_gui3T</item>
+        <item>@string/sungsanilchul_gui4T</item>
+    </string-array>
+    <string-array name="sungsanilchulDs">
+        <item>@string/sungsanilchul_guiP</item>
+        <item>@string/sungsanilchul_gui1</item>
+        <item>@string/sungsanilchul_gui2</item>
+        <item>@string/sungsanilchul_gui3</item>
+        <item>@string/sungsanilchul_gui4</item>
+    </string-array>
+
+    <string-array name="ewolTs">
+        <item>@string/ewol_guiH</item>
+        <item>@string/ewol_gui1T</item>
+        <item>@string/ewol_gui2T</item>
+        <item>@string/ewol_gui3T</item>
+        <item>@string/ewol_gui4T</item>
+    </string-array>
+    <string-array name="ewolDs">
+        <item>@string/ewol_guiP</item>
+        <item>@string/ewol_gui1</item>
+        <item>@string/ewol_gui2</item>
+        <item>@string/ewol_gui3</item>
+        <item>@string/ewol_gui4</item>
+    </string-array>
+
+
+
+</resources>

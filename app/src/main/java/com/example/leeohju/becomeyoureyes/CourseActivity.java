@@ -18,7 +18,10 @@ public class CourseActivity extends AppCompatActivity {
         btnCos1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                int cosNum = 1;
+                Data data = new Data(cosNum);
                 Intent intent = new Intent(CourseActivity.this,GuideActivity.class);
+                intent.putExtra("data", data);
                 startActivity(intent);
             }
         });
@@ -27,7 +30,10 @@ public class CourseActivity extends AppCompatActivity {
         btnCos2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                int cosNum = 2;
+                Data data = new Data(cosNum);
                 Intent intent = new Intent(CourseActivity.this,GuideActivity.class);
+                intent.putExtra("data", data);
                 startActivity(intent);
             }
         });
@@ -36,7 +42,10 @@ public class CourseActivity extends AppCompatActivity {
         btnCos3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                int cosNum = 3;
+                Data data = new Data(cosNum);
                 Intent intent = new Intent(CourseActivity.this,GuideActivity.class);
+                intent.putExtra("data", data);
                 startActivity(intent);
             }
         });
@@ -45,7 +54,10 @@ public class CourseActivity extends AppCompatActivity {
         btnCos4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                int cosNum = 4;
+                Data data = new Data(cosNum);
                 Intent intent = new Intent(CourseActivity.this,GuideActivity.class);
+                intent.putExtra("data", data);
                 startActivity(intent);
             }
         });
@@ -54,7 +66,10 @@ public class CourseActivity extends AppCompatActivity {
         btnCos5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                int cosNum = 5;
+                Data data = new Data(cosNum);
                 Intent intent = new Intent(CourseActivity.this,GuideActivity.class);
+                intent.putExtra("data", data);
                 startActivity(intent);
             }
         });

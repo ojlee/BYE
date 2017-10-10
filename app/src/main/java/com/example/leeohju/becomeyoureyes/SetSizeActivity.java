@@ -1,6 +1,7 @@
 package com.example.leeohju.becomeyoureyes;
 
 import android.content.Intent;
+import android.content.res.TypedArray;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,20 +10,22 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.util.TypedValue;
 
+import static java.security.AccessController.getContext;
+
 public class SetSizeActivity extends AppCompatActivity {
 
     SeekBar txtSizeSeekBar;
     TextView txtSizeExample;
-    float scale;
     public int fontSize;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setsize);
 
-        scale = getResources().getConfiguration().fontScale;
-        fontSize = (int) scale;
+
+        fontSize = 30;
 
         final int fontMinSize = 20;
         int fontMaxSize =60;
@@ -65,11 +68,13 @@ public class SetSizeActivity extends AppCompatActivity {
         btnSizeSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+
                 Button btn1 = (Button) findViewById(R.id.btnSizeSave);
 
                 btn1.setTextSize(TypedValue.COMPLEX_UNIT_DIP, fontSize);
-//                Intent intent = new Intent(SetSizeActivity.this,SetMainActivity.class);
-//                startActivity(intent);
+////                Intent intent = new Intent(SetSizeActivity.this,SetMainActivity.class);
+////                startActivity(intent);
 
             }
         });

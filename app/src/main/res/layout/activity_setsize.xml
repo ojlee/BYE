@@ -11,7 +11,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="글자 크기 설정" />
+            android:text="글자 크기 설정"
+            style="@style/CustomTextView"
+            android:contentDescription = "글자 크기 설정 바를 좌우로 이동해 글자크기를 조정하세요"/>
     </FrameLayout>
 
     <SeekBar
@@ -38,6 +40,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="64dp"
+        style="@style/BtnTheme"
         android:background="@color/colorTheme1"
         android:textColor="@color/colorBackground"
         />

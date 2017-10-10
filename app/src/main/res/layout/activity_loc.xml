@@ -12,7 +12,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="지역 선택"
-            android:contentDescription = "지역 선택 여행하고자 하는 지역을 선택해 주세요"/>
+            android:contentDescription = "지역 선택 여행하고자 하는 지역을 선택해 주세요"
+            style="@style/CustomTextView"/>
 
 
     </FrameLayout>
@@ -39,6 +40,7 @@
                 android:layout_marginBottom="30dp"
                 android:layout_weight="1"
                 android:text="애월"
+                style="@style/BtnTheme"
                 android:background="@color/colorTheme1"
                 android:textColor="@color/colorBackground"
                 android:contentDescription = "@string/ewol_loc"
@@ -55,6 +57,7 @@
                 android:text="신제주"
                 android:background="@color/colorTheme1"
                 android:textColor="@color/colorBackground"
+                style="@style/BtnTheme"
                 android:contentDescription = "@string/njeju_loc"
                 />
 
@@ -69,6 +72,7 @@
                 android:text="한림"
                 android:background="@color/colorTheme1"
                 android:textColor="@color/colorBackground"
+                style="@style/BtnTheme"
                 android:contentDescription = "@string/hanlim_loc"
                 />
 
@@ -83,6 +87,7 @@
                 android:text="구제주"
                 android:background="@color/colorTheme1"
                 android:textColor="@color/colorBackground"
+                style="@style/BtnTheme"
                 android:contentDescription = "@string/ojeju_loc"
                 />
 
@@ -97,6 +102,7 @@
                 android:text="중문"
                 android:background="@color/colorTheme1"
                 android:textColor="@color/colorBackground"
+                style="@style/BtnTheme"
                 android:contentDescription = "@string/joongmun_loc"
                 />
 

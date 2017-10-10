@@ -2,4 +2,103 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/frameLayout2">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="긴급 통화"
+            android:contentDescription = "긴급 연락망입니다. 클릭시 바로 연결됩니다."
+            style="@style/CustomTextView"
+
+            />
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/frameLayout2"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+
+
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:id="@+id/btnEme1"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:text="소방서"
+                android:background="@color/colorTheme1"
+                android:textColor="@color/colorBackground"
+                style="@style/BtnTheme"
+
+                />
+
+            <Button
+                android:id="@+id/btnEme2"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_alignStart="@+id/btnCos"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:text="경찰서"
+                android:background="@color/colorTheme1"
+                android:textColor="@color/colorBackground"
+                style="@style/BtnTheme"/>
+
+            <Button
+                android:id="@+id/btnEme3"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:text="장애인센터"
+                android:background="@color/colorTheme1"
+                android:textColor="@color/colorBackground"
+                style="@style/BtnTheme"/>
+
+            <Button
+                android:id="@+id/btnEme4"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:text="한라병원"
+                android:background="@color/colorTheme1"
+                android:textColor="@color/colorBackground"
+                style="@style/BtnTheme"/>
+
+            <Button
+                android:id="@+id/btnEme5"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:text="콜택시"
+                android:background="@color/colorTheme1"
+                android:textColor="@color/colorBackground"
+                style="@style/BtnTheme"/>
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

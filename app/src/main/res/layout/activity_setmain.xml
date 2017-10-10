@@ -11,7 +11,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="설정" />
+            android:text="설정"
+            style="@style/CustomTextView"/>
     </FrameLayout>
 
     <ScrollView
@@ -36,7 +37,7 @@
                 android:text="글자 크기 설정"
                 android:background="@color/colorTheme1"
                 android:textColor="@color/colorBackground"
-
+                style="@style/BtnTheme"
                 />
 
             <Button
@@ -48,7 +49,9 @@
                 android:layout_weight="1"
                 android:text="버튼 테마 색 설정"
                 android:background="@color/colorTheme1"
-                android:textColor="@color/colorBackground"/>
+                android:textColor="@color/colorBackground"
+                style="@style/BtnTheme"
+                />
 
         </LinearLayout>
     </ScrollView>
